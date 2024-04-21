@@ -1,0 +1,15 @@
+.aoc {
+    display: flex;
+    flex-direction: row; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.aoc p {
+    margin: 0px;
+}
+
+#dataDisplay{
+    margin-top: 10px
+}
