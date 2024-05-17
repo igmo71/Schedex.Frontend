@@ -1,15 +1,17 @@
-.aoc {
-    display: flex;
-    flex-direction: row; 
-    border: 1px solid #ccc;
+.waybill {
+    background-color: #f2f2f2;
     padding: 10px;
-    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
-.aoc p {
-    margin: 0px;
+.waybill-locations {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
 }
 
-#dataDisplay{
-    margin-top: 10px
+.waybill-locations p {
+    margin: 0;
 }

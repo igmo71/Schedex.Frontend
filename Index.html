@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My project</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script type="module" src="script.js" defer></script>
 </head>
 <body>
     <h1>Welcome</h1>
     <p>some text</p>
-    <button id="fetchButton">Fetch Data</button> 
-    <div id="dataDisplay"></div> 
+    <form>
+        <label for="aocsSelector">Выберете склад:</label>
+        <select name="selectedAoc" id="aocsSelector">
+          </select>
+          <label for="date">Выберете день:</label>
+<input type="date" id="date" name="trip-start" value="" min="2018-01-01" max="" />
+<input type="submit" value="Submit">
+    </form>
+    <div id="waybills"></div>
 </body>
 </html>
